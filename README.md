@@ -1,98 +1,98 @@
-# Vinh Long Hotel
+﻿# Vinh Long Hotel
 
-## Th?ng tin li?n l?c
+## Thông tin liên lạc
 - Email: phamminhman719@gmail.com
-- ?i?n tho?i: 0823521928
+- Điện thoại: 0823521928
 
-## M? t? d? ?n + m?c ti?u
-?? ?n x?y d?ng h? th?ng ??t ph?ng kh?ch s?n tr?c tuy?n cho Vinh Long Hotel.
-M?c ti?u l? cung c?p tr?i nghi?m ??t ph?ng nhanh ch?ng, qu?n l? th?ng tin ph?ng,
-??t ph?ng, thanh to?n v? qu?n tr? n?i dung c? b?n cho ng??i d?ng v? qu?n tr? vi?n.
+## Mô tả dự án + mục tiêu
+Dự án xây dựng hệ thống đặt phòng khách sạn trực tuyến cho Vinh Long Hotel.
+Mục tiêu là cung cấp trải nghiệm đặt phòng nhanh chóng, quản lý thông tin phòng,
+đặt phòng, thanh toán và quản trị nội dung cơ bản cho người dùng và quản trị viên.
 
-## C?ng ngh? s? d?ng
+## Công nghệ sử dụng
 - PHP, HTML, CSS, JavaScript
 - MySQL (XAMPP)
 - Bootstrap 5, Swiper
 
-## Ch?c n?ng ch?nh
-- Tra c?u ph?ng, xem chi ti?t ph?ng
-- ??t ph?ng, x?c nh?n ??t ph?ng, l?ch s? ??t ph?ng
-- Qu?n l? th?ng tin kh?ch h?ng (??ng nh?p/??ng k?)
-- Qu?n tr? n?i dung c? b?n (ph?ng, ti?n ?ch, ?i?m ??n)
+## Chức năng chính
+- Tra cứu phòng, xem chi tiết phòng
+- Đặt phòng, xác nhận đặt phòng, lịch sử đặt phòng
+- Quản lý thông tin khách hàng (đăng nhập/đăng ký)
+- Quản trị nội dung cơ bản (phòng, tiện ích, điểm đến)
 
-## Y?u c?u h? th?ng
+## Yêu cầu hệ thống
 - PHP 8.x
 - MySQL/MariaDB
-- XAMPP (khuy?n ngh?)
-- Tr?nh duy?t hi?n ??i (Chrome/Edge/Firefox)
+- XAMPP (khuyến nghị)
+- Trình duyệt hiện đại (Chrome/Edge/Firefox)
 
-## H??ng d?n c?i ??t chi ti?t
-1. C?i XAMPP v? b?t Apache + MySQL.
-2. Copy project v?o `C:\xampp\htdocs\vinhlong_hotel`.
-3. T?o database v? import file trong th? m?c `database/` (v? d? `vinhlong_hotel.sql`).
-4. Truy c?p `http://localhost/vinhlong_hotel`.
+## Hướng dẫn cài đặt chi tiết
+1. Cài XAMPP và bật Apache + MySQL.
+2. Copy project vào `C:\xampp\htdocs\vinhlong_hotel`.
+3. Tạo database và import file trong thư mục `database/` (ví dụ `vinhlong_hotel.sql`).
+4. Truy cập `http://localhost/vinhlong_hotel`.
 
-## T?i kho?n demo
-- User: (t? ??ng k? t?i kho?n)
-- Admin (n?u c?):
-  - T?i kho?n: Man
-  - M?t kh?u: 123123
+## Tài khoản demo
+- User: (tự đăng ký tài khoản)
+- Admin (nếu có):
+  - Tài khoản: Man
+  - Mật khẩu: 123123
 
-## C?u tr?c th? m?c (chi ti?t)
+## Cấu trúc thư mục (chi tiết)
 ```
 vinhlong_hotel/
-?? admin/                 # khu v?c qu?n tr?
-?  ?? ajax/               # x? l? AJAX cho admin
-?  ?? inc/                # c?u h?nh + h?m d?ng chung
-?  ?? modals/             # modal giao di?n
-?  ?? vendor/             # th? vi?n PHP (composer)
-?  ?? ...
-?? ajax/                  # x? l? AJAX ph?a user
-?? css/                   # stylesheet
-?? database/              # file SQL (import DB)
-?? fonts/                 # font c?c b?
-?? images/                # ?nh giao di?n
-?  ?? about/              # ?nh gi?i thi?u
-?  ?? app/                # badge App Store/Google Play
-?  ?? carousel/           # ?nh slider trang ch?
-?  ?? destinations/       # ?nh ?i?m ??n
-?  ?? facilities/         # ?nh ti?n ?ch
-?  ?? rooms/              # ?nh ph?ng
-?  ?? ...
-?? inc/                   # header, footer, links, modal, i18n
-?? js/                    # script giao di?n
-?? lib/                   # th? vi?n t?ch h?p
-?? logo/                  # logo d? ?n
-?? owner/                 # khu v?c d?nh cho ch? kh?ch s?n
-?? about.php
-?? bookings.php
-?? confirm_booking.php
-?? index.php
-?? rooms.php
-?? README.md
+├─ admin/                 # khu vực quản trị
+│  ├─ ajax/               # xử lý AJAX cho admin
+│  ├─ inc/                # cấu hình + hàm dùng chung
+│  ├─ modals/             # modal giao diện
+│  ├─ vendor/             # thư viện PHP (composer)
+│  └─ ...
+├─ ajax/                  # xử lý AJAX phía user
+├─ css/                   # stylesheet
+├─ database/              # file SQL (import DB)
+├─ fonts/                 # font các bộ
+├─ images/                # ảnh giao diện
+│  ├─ about/              # ảnh giới thiệu
+│  ├─ app/                # badge App Store/Google Play
+│  ├─ carousel/           # ảnh slider trang chủ
+│  ├─ destinations/       # ảnh điểm đến
+│  ├─ facilities/         # ảnh tiện ích
+│  ├─ rooms/              # ảnh phòng
+│  └─ ...
+├─ inc/                   # header, footer, links, modal, i18n
+├─ js/                    # script giao diện
+├─ lib/                   # thư viện tích hợp
+├─ logo/                  # logo dự án
+├─ owner/                 # khu vực dành cho chủ khách sạn
+├─ about.php
+├─ bookings.php
+├─ confirm_booking.php
+├─ index.php
+├─ rooms.php
+└─ README.md
 ```
 
-## C?u tr?c th? m?c theo y?u c?u n?p ?? ?n
+## Cấu trúc thư mục theo yêu cầu nộp đồ án
 ```
-setup/            # file c?i ??t, d? li?u m?u, h??ng d?n tri?n khai
-scr/              # m? ngu?n v? d? li?u th? nghi?m
-progress-report/  # b?o c?o ti?n ?? (b?t bu?c)
-thesis/           # t?i li?u ?? ?n (b?t bu?c)
-  ?? doc/
-  ?? pdf/
-  ?? html/
-  ?? abs/
-  ?? refs/
-  ?? soft/         # n?u c?
-  ?? docker/       # n?u c?
+setup/            # file cài đặt, dữ liệu mẫu, hướng dẫn triển khai
+scr/              # mã nguồn và dữ liệu thử nghiệm
+progress-report/  # báo cáo tiến độ (bắt buộc)
+thesis/           # tài liệu đồ án (bắt buộc)
+  ├─ doc/
+  ├─ pdf/
+  ├─ html/
+  ├─ abs/
+  ├─ refs/
+  ├─ soft/         # nếu có
+  └─ docker/       # nếu có
 ```
 
-## H?nh ?nh
+## Hình ảnh
 Logo:
 ![Logo](logo/Vinh%20Long%20Hotel.png)
 
-?nh carousel m?u:
+Ảnh carousel mẫu:
 ![Carousel](images/carousel/1.jpg)
 
-?nh gi?i thi?u:
+Ảnh giới thiệu:
 ![About](images/about/logotvu.png)
