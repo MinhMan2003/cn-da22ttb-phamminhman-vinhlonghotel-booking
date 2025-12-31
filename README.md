@@ -87,25 +87,25 @@ thesis/           # tài liệu đồ án (bắt buộc)
   └─ docker/       # nếu có
 ```
 
-## Hình ảnh
-Logo trường:
+### Hình ảnh
+## Logo trường:
 ![About](images/about/logotvu.png)
 
-## Ảnh demo
-Ảnh trang chủ:
+
+## Ảnh trang chủ:
 ![Trang chủ](AnhDemo/TrangChu.png)
 
-Ảnh trang giới thiệu:
+## Ảnh trang giới thiệu:
 ![Giới thiệu](AnhDemo/GioiThieu.png)
 
-Ảnh trang danh sách phòng:
+## Ảnh trang danh sách phòng:
 ![Danh sách phòng](AnhDemo/DanhSachPhong.png)
 
-Ảnh trang điểm đến và đặc sản phòng:
+## Ảnh trang điểm đến và đặc sản phòng:
 ![Điểm đến & đặc sản](AnhDemo/DemDen%26DacSan.png)
 
-Ảnh trang liên hệ:
+## Ảnh trang liên hệ:
 ![Liên hệ](AnhDemo/LienHe.png)
 
-Ảnh trang tin nhắn:
+## Ảnh trang tin nhắn:
 ![Tin nhắn](AnhDemo/TinNhan.png)
