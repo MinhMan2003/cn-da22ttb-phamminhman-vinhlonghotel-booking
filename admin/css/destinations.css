@@ -1,0 +1,123 @@
+.destinations-page .page-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.destinations-page .page-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 12px;
+  opacity: 0.7;
+  margin-bottom: 6px;
+}
+
+.destinations-page .page-title {
+  font-weight: 700;
+  margin: 0;
+}
+
+.destinations-page .page-subtitle {
+  margin-top: 6px;
+  opacity: 0.75;
+  font-size: 14px;
+}
+
+.destinations-page .page-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.destinations-page .stats-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.destinations-page .stat-card {
+  border-radius: 16px;
+  padding: 14px 16px;
+  background: linear-gradient(140deg, rgba(88, 166, 255, 0.12), rgba(15, 22, 34, 0.7));
+  border: 1px solid rgba(88, 166, 255, 0.15);
+}
+
+.destinations-page .stat-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.7;
+}
+
+.destinations-page .stat-value {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.destinations-page .page-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.destinations-page .toolbar-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.destinations-page .search-field {
+  position: relative;
+  min-width: 240px;
+}
+
+.destinations-page .search-field i {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  opacity: 0.6;
+}
+
+.destinations-page .search-field input {
+  padding-left: 36px;
+}
+
+.destinations-page .table-responsive {
+  border-radius: 18px;
+}
+
+.destinations-page .table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.destinations-page .table tbody tr.is-hidden {
+  display: none;
+}
+
+.destinations-page .empty-state {
+  text-align: center;
+  padding: 24px 0;
+  opacity: 0.75;
+}
+
+@media (max-width: 991px) {
+  .destinations-page .page-actions {
+    width: 100%;
+  }
+
+  .destinations-page .page-actions .btn {
+    flex: 1 1 auto;
+  }
+}

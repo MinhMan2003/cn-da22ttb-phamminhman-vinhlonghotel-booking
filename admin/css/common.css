@@ -1,0 +1,177 @@
+:root{
+  --teal: #2ec1ac;
+  --teal_hover: #279e8c;
+}
+
+*{
+  font-family: 'Lato', sans-serif;
+}
+.h-font{
+  font-family: 'Merriweather', serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.custom-bg{
+  background-color: var(--teal);
+  border: 1px solid var(--teal);
+}
+.custom-bg:hover{
+  background-color: var(--teal_hover);
+  border-color: var(--teal_hover);
+}
+
+.h-line{
+  width: 150px;
+  margin: 0 auto;
+  height: 1.7px;
+}
+
+.custom-alert{
+  position: fixed;
+  top: 80px;
+  right: 25px;
+  min-width: 260px;
+  color:#0f5132;
+  background:#d1e7dd;
+  border:1px solid #badbcc;
+  box-shadow:0 12px 30px rgba(0,0,0,0.25);
+  z-index: 11000;
+  font-size: 14px;
+  padding: 12px 14px;
+  border-radius: 10px;
+}
+.custom-alert.alert-danger{
+  color:#842029;
+  background:#f8d7da;
+  border-color:#f5c2c7;
+}
+.custom-alert .btn-close{
+  filter: invert(0); /* giữ nút đóng tối */
+}
+
+/* ALERT GENERAL (cho toàn bộ admin) */
+.alert{
+  color:#0f172a;
+  background:#f8fafc;
+  border:1px solid #e5e7eb;
+  font-weight:600;
+  padding: 10px 12px;
+  border-radius: 10px;
+  opacity:1 !important;
+}
+.alert strong{
+  color:inherit !important;
+}
+.alert-success{
+  color:#0d3a25 !important;
+  background:#d1e7dd !important;
+  border-color:#badbcc !important;
+  font-weight:700;
+}
+.alert-danger{
+  color:#842029 !important;
+  background:#f8d7da !important;
+  border-color:#f5c2c7 !important;
+}
+.alert-warning{
+  color:#664d03 !important;
+  background:#fff3cd !important;
+  border-color:#ffecb5 !important;
+}
+.alert-info{
+  color:#055160 !important;
+  background:#cff4fc !important;
+  border-color:#b6effb !important;
+}
+
+#dashboard-menu{
+  position: fixed;
+  height: 100%;
+  z-index: 11;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(36,36,36);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media screen and (max-width: 991px) {
+  #dashboard-menu{
+    height: auto;
+    width: 100%;
+  } 
+  #main-content{
+    margin-top: 60px;
+  }
+}
+
+
+select.form-select[value="unavailable"] {
+  background-color: #f8d7da;
+}
+select.form-select[value="available"] {
+  background-color: #d1e7dd;
+}
+    * {
+        font-family: 'Inter', sans-serif !important;
+    }
+
+/* ===== ALERT LEGIBILITY (dark modal) ===== */
+.modal .alert{
+  --bs-alert-color:#0f5132;
+  --bs-alert-bg:#d1e7dd;
+  --bs-alert-border-color:#badbcc;
+  color:#0f5132 !important;
+  background-color:#d1e7dd !important;
+  border:1px solid #badbcc !important;
+  font-weight:700;
+  opacity:1 !important;
+}
+.modal .alert-danger{
+  --bs-alert-color:#842029;
+  --bs-alert-bg:#f8d7da;
+  --bs-alert-border-color:#f5c2c7;
+  color:#842029 !important;
+  background-color:#f8d7da !important;
+  border-color:#f5c2c7 !important;
+  opacity:1 !important;
+}
+.modal .alert-warning{
+  --bs-alert-color:#664d03;
+  --bs-alert-bg:#fff3cd;
+  --bs-alert-border-color:#ffecb5;
+  color:#664d03 !important;
+  background-color:#fff3cd !important;
+  border-color:#ffecb5 !important;
+  opacity:1 !important;
+}
+.modal .alert-info{
+  --bs-alert-color:#055160;
+  --bs-alert-bg:#cff4fc;
+  --bs-alert-border-color:#b6effb;
+  color:#055160 !important;
+  background-color:#cff4fc !important;
+  border-color:#b6effb !important;
+  opacity:1 !important;
+}
