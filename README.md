@@ -96,3 +96,11 @@ Logo:
 
 Ảnh giới thiệu:
 ![About](images/about/logotvu.png)
+
+## Ảnh demo
+![Trang chủ](AnhDemo/TrangChu.png)
+![Giới thiệu](AnhDemo/GioiThieu.png)
+![Danh sách phòng](AnhDemo/DanhSachPhong.png)
+![Điểm đến & đặc sản](AnhDemo/DemDen%26DacSan.png)
+![Liên hệ](AnhDemo/LienHe.png)
+![Tin nhắn](AnhDemo/TinNhan.png)
