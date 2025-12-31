@@ -88,12 +88,6 @@ thesis/           # tài liệu đồ án (bắt buộc)
 ```
 
 ## Hình ảnh
-Logo:
-![Logo](logo/Vinh%20Long%20Hotel.png)
-
-Ảnh carousel mẫu:
-![Carousel](images/carousel/1.jpg)
-
 Ảnh giới thiệu:
 ![About](images/about/logotvu.png)
 
